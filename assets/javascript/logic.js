@@ -9,6 +9,7 @@ $(document).ready(function () {
     });
 
 
+
     function scrollToAbout() {
         let elmnt1 = document.getElementById("aboutSection");
         elmnt1.scrollIntoView();

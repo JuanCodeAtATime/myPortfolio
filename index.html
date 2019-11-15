@@ -11,8 +11,13 @@
         href="https://fonts.googleapis.com/css?family=Squada+One|Kaushan+Script|Permanent+Marker|Shadows+Into+Light|Staatliches&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
     <!-- Reference for Font Awesome Social Media Icons -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -21,30 +26,49 @@
 </head>
 
 <body>
-    <div class="overlay">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
-            <a class="navbar-brand" href="#" style="color: whitesmoke; font-family: 'Squada One', cursive; ">JUAN
-                RIVERA | <span class="navbar-text" style="color: whitesmoke;">
-                    Full Stack <span style="color: #ff0000">Web</span> Developer
-                </span></a>
-            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="#" style="color: whitesmoke; font-family: 'Squada One', cursive; ">JUAN
+            RIVERA | <span class="navbar-text" style="color: whitesmoke;">
+                Full Stack <span style="color: #ff0000">Web</span> Developer
+            </span></a>
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <div class="ml-auto">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active" id="homeNav">
+                        <a class="nav-link" href="#" style="color: whitesmoke; font-family: 'Squada One', cursive;">Home
+                            <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#"
+                            style="color: whitesmoke; font-family: 'Squada One', cursive;">Portfolio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="nav-item" id="contactNav">
+                        <a class="nav-link" href="#"
+                            style="color: whitesmoke; font-family: 'Squada One', cursive;">Contact</a>
                     </li>
                 </ul>
-                <div class="col-md social ml-auto clearfix">
-                    <ul class="navbar-nav right">
+            </div>
+        </div>
+    </nav>
+    <div class="overlay">
+
+
+        <div class="container">
+            <div class="row" id="disappear">
+                <div class="col-md">
+                    <h1 class="header">I'm <span style="color: #ff0000">Juan</span>, and I create things with <span
+                            style="color: #ff0000">code<span class="blinking-cursor"> |</span></span></h1>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md social">
+                    <ul>
                         <li><a href="https://github.com/JuanCodeAtATime" target="_blank"><i
                                     class="fa fa-lg fa-github"></i></a></li>
 
@@ -57,27 +81,6 @@
                         <li><a href="#"><i class="fa fa-lg fa-youtube"></i></a></li>
 
                     </ul>
-
-                </div>
-
-
-
-            </div>
-        </nav>
-
-        <div class="container">
-            <div class="row" id="disappear">
-                <div class="col-md">
-                    <h1 class="header">I'm <span style="color: #ff0000">Juan</span>, and I create things with <span
-                            style="color: #ff0000">code<span class="blinking-cursor"> |</span></span></h1>
-                </div>
-
-            </div>
-
-
-
-            <div class="row">
-                <div class="col-md">
                     <button type="button" class="btn btn-outline-light" id="aboutMeBtn">About
                         Me</button>
                     <button type="button" class="btn btn-outline-light bg-success" id="myPort">Portfolio</button>
@@ -103,8 +106,8 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-md aboutMe aboutMeTxt justify-content-center text-center">
-                <img class="me" src="assets/images/meSitting.PNG" alt="Juan Sitting for Interview"
-                    style="width:325px;height:325px;">
+                <img src="assets/images/meSitting.PNG" alt="Juan Sitting for Interview"
+                    style="width:325px;height:325px;" id="me">
 
                 <h4 class="character">Innovative | Entrepreneurial | Committed</h4>
                 <p>From creating wellness programs to developing instructional products,
@@ -123,8 +126,11 @@
 
             </div>
         </div>
+        <br>
     </div>
     <!--Div closing About me -->
+
+
 
     <div class="container3 portSection" id="portSection">
         <div class="row justify-content-center text-center">
@@ -143,42 +149,96 @@
             <div class="col-md-2"></div>
 
             <div class="col-md-8">
-                <div class="thumbNails" id="geoGiphy">
-
+                <div class="polaroid" id="geoGiphy">
+                    <img class="me" src="assets/images/geoGiphy.PNG" alt="Juan Sitting for Interview"
+                        style="width:250px;height:185px;">
+                    <p class="banner">Geogiphy</p>
                 </div>
-                <div class="thumbNails"></div>
-                <div class="thumbNails"></div>
-
+                <div class="polaroid"> <img class="me" src="assets/images/crystals.PNG" alt="Juan Sitting for Interview"
+                        style="width:250px;height:185px;">
+                    <p class="banner">Crystals Collector</p>
+                </div>
+                <div class="polaroid"> <img class="me" src="assets/images/blackHawk.PNG"
+                        alt="Juan Sitting for Interview" style="width:250px;height:185px;">
+                    <p class="banner">Blackhack Scheduler</p>
+                </div>
             </div>
 
             <div class="col-md-2"></div>
-
         </div>
 
 
 
         <div class="row text-center clearfix">
-
             <div class="col-md-2"></div>
 
             <div class="col-md-8">
-                <div class="thumbNails"></div>
-                <div class="thumbNails"></div>
-                <div class="thumbNails"></div>
-
+                <div class="polaroid">
+                    <img class="me" src="assets/images/nutriFacts.PNG" alt="Juan Sitting for Interview"
+                        style="width:250px;height:185px;">
+                    <p class="banner">Nutrition Trivia</p>
+                </div>
+                <div class="polaroid">
+                    <img class="me" src="assets/images/muscle.PNG" alt="Juan Sitting for Interview"
+                        style="width:250px;height:185px;">
+                    <p class="banner">Muscle Memory</p>
+                </div>
+                <div class="polaroid">
+                    <img class="me" src="assets/images/muscle.PNG" alt="Juan Sitting for Interview"
+                        style="width:250px;height:185px;">
+                    <p class="banner">Meal Planner</p>
+                </div>
             </div>
 
             <div class="col-md-2"></div>
         </div>
-
-
-
-
+        <br>
     </div>
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div class="container2 conSection">
+        <div class="row justify-content-center text-center">
+            <div class="col-md">
+                <h2 class="secTitles">Contact</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md aboutMe aboutMeTxt justify-content-center text-center">
+                <img src="assets/images/meSitting.PNG" alt="Juan Sitting for Interview"
+                    style="width:125px;height:125px;" id="me">
+
+                <h4 class="character">Innovative | Entrepreneurial | Committed</h4>
+                <p>From creating wellness programs to developing instructional products,
+                    the one true thing that describes me well is... I'M A CREATOR.</p>
+
+                <p>As the Founder of Primal Platoon, Inc., I pioneered many wellness solutions that were
+                    inplemented by various organizations. </p>
+
+                <p>Today, I'm an aspiring full stack software developer with one main goal...To
+                    work in a fast-paced development team where my unique skills and experiences can be leveraged to
+                    fulfill team goals.
+
+                    <p>I spend my down time working on digital tools that integrate my software development
+                        skills with my nutrition education background. I live in Marlborough, MA with my wife,
+                        Daisy, and two children.</p>
+
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
     <script src="assets/javascript/logic.js"></script>
 </body>
 
