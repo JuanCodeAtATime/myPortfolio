@@ -4,6 +4,7 @@ body {
     margin: 0;
     background-image: url("../images/coding.jpg");
     background-size: cover; 
+    background-attachment: fixed;
 }
 
 /* Overlay class to give original image a darker tint, hence, making content stand out */
@@ -21,11 +22,24 @@ div.overlay {
     color: whitesmoke;
 }
 
+.sticky-top{
+  top:56px;
+}
 
-.btn {
+.character {
+    font-family: 'Squada One', cursive;
+    padding-top: 4px;
+}
 
+
+.btn, .secTitles {
     margin: 5px;
     font-family: 'Squada One', cursive; 
+}
+
+h2.secTitles {
+
+  font-family: 'Squada One', cursive; 
 }
 /* Centering the content to the center or the viewport */
 
@@ -111,10 +125,125 @@ div.container {
 }
 
 li.nav-item {
-
     display: none;
 }
 
+.right {
+  float: right;
+}
+
+.aMsection {
+    background-color: #FBE7B2;
+    opacity: .95;  
+    width: auto;
+    border-radius: 4px;
+}
+
+.portSection {
+  background-color:#C8C8CD;
+  opacity: .95;  
+  width: auto;
+  border-radius: 4px;
+}
+
+img.Me {
+margin: 10px;
+border-radius: 50%;
+display: inline-block;
+position: center;
+align-content: center;
+text-align: center;
+}
+
+
+.aboutMeTxt {
+  padding: auto 2px;
+  margin: auto 25px;
+}
+
+/* Portfolio image properties below */
+
+.thumbNails {
+  height: 200px;
+  width: 250px;
+  margin: 10px 10px;
+  border: solid 2px black;  
+  align-content: center; 
+  margin: 2px 1px;  
+  display: inline-block;
+   
+}
+
+#geoGiphy {
+  background-image: url("../images/geoGiphy.PNG");
+  height: 200px;
+  width: 250px;
+  /* max-width:100%;
+  max-height:100%; */
+  
+}
+
+
+
+  /* Block of code below controls the blinking red cursor on home page */
+
+.blinking-cursor {
+    font-weight: 100;
+    font-size: 40px;
+    color: red;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: red;
+    }
+  }
+
+  /* All code above this line controls the blinking red cursor on home page */
 
 
 /* font families inventory

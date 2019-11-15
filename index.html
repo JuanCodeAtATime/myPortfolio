@@ -22,7 +22,7 @@
 
 <body>
     <div class="overlay">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
             <a class="navbar-brand" href="#" style="color: whitesmoke; font-family: 'Squada One', cursive; ">JUAN
                 RIVERA | <span class="navbar-text" style="color: whitesmoke;">
                     Full Stack <span style="color: #ff0000">Web</span> Developer
@@ -34,38 +34,19 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <!-- <span class="navbar-text" style="color: whitesmoke; font-family: 'Squada One', cursive; ">
-                    Full Stack <span style="color: #ff0000">Web</span> Developer
-                </span> -->
-            </div>
-        </nav>
-
-
-
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md">
-                    <h1 class="header">I'm <span style="color: #ff0000">Juan</span> and I create things with<span
-                            style="color: #ff0000">Code</span>;</h1>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-md social">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-lg fa-github"></i></a></li>
+                <div class="col-md social ml-auto clearfix">
+                    <ul class="navbar-nav right">
+                        <li><a href="https://github.com/JuanCodeAtATime" target="_blank"><i
+                                    class="fa fa-lg fa-github"></i></a></li>
 
                         <li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
 
@@ -79,34 +60,122 @@
 
                 </div>
 
+
+
             </div>
+        </nav>
 
-            <br>
-
-            <div class="row">
+        <div class="container">
+            <div class="row" id="disappear">
                 <div class="col-md">
-                    <button type="button" class="btn btn-outline-light" id="aboutMe">About Me</button>
-                    <button type="button" class="btn btn-outline-light bg-success" id="myProj">My Projects</button>
-
+                    <h1 class="header">I'm <span style="color: #ff0000">Juan</span>, and I create things with <span
+                            style="color: #ff0000">code<span class="blinking-cursor"> |</span></span></h1>
                 </div>
 
             </div>
 
 
 
+            <div class="row">
+                <div class="col-md">
+                    <button type="button" class="btn btn-outline-light" id="aboutMeBtn">About
+                        Me</button>
+                    <button type="button" class="btn btn-outline-light bg-success" id="myPort">Portfolio</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <!-- Div tag above closes overlay div -->
+
+    <!-- About Me section starts here -->
+
+    <div class="container2 aMsection" id="aboutSection">
+        <div class="row justify-content-center text-center">
+            <div class="col-md">
+                <h2 class="secTitles">About Me</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md aboutMe aboutMeTxt justify-content-center text-center">
+                <img class="me" src="assets/images/meSitting.PNG" alt="Juan Sitting for Interview"
+                    style="width:325px;height:325px;">
+
+                <h4 class="character">Innovative | Entrepreneurial | Committed</h4>
+                <p>From creating wellness programs to developing instructional products,
+                    the one true thing that describes me well is... I'M A CREATOR.</p>
+
+                <p>As the Founder of Primal Platoon, Inc., I pioneered many wellness solutions that were
+                    inplemented by various organizations. </p>
+
+                <p>Today, I'm an aspiring full stack software developer with one main goal...To
+                    work in a fast-paced development team where my unique skills and experiences can be leveraged to
+                    fulfill team goals.
+
+                    <p>I spend my down time working on digital tools that integrate my software development
+                        skills with my nutrition education background. I live in Marlborough, MA with my wife,
+                        Daisy, and two children.</p>
+
+            </div>
+        </div>
+    </div>
+    <!--Div closing About me -->
+
+    <div class="container3 portSection" id="portSection">
+        <div class="row justify-content-center text-center">
+            <div class="col-md">
+                <h2 class="secTitles">Portfolio</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md text-center">
+                <h5 class="character">JAVASCRIPT | NODE.JS | HTML | CSS</h5>
+            </div>
+        </div>
+
+
+        <div class="row text-center clearfix">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-8">
+                <div class="thumbNails" id="geoGiphy">
+
+                </div>
+                <div class="thumbNails"></div>
+                <div class="thumbNails"></div>
+
+            </div>
+
+            <div class="col-md-2"></div>
+
+        </div>
+
+
+
+        <div class="row text-center clearfix">
+
+            <div class="col-md-2"></div>
+
+            <div class="col-md-8">
+                <div class="thumbNails"></div>
+                <div class="thumbNails"></div>
+                <div class="thumbNails"></div>
+
+            </div>
+
+            <div class="col-md-2"></div>
         </div>
 
 
 
 
-
-
-
-
-
-
     </div>
-    <!--Bottommost closing div (overlay class) -->
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
