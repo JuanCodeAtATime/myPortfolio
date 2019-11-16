@@ -8,7 +8,9 @@ $(document).ready(function () {
         scrollToPort();
     });
 
-
+    $("#back2Top").click(function () {
+        scrollToTop();
+    });
 
     function scrollToAbout() {
         let elmnt1 = document.getElementById("aboutSection");
@@ -18,6 +20,11 @@ $(document).ready(function () {
     function scrollToPort() {
         let elmnt2 = document.getElementById("portSection");
         elmnt2.scrollIntoView();
+    }
+
+    function scrollToTop() {
+        let elmnt3 = document.getElementById("top");
+        elmnt3.scrollIntoView();
     }
 
 
