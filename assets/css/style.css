@@ -191,16 +191,23 @@ text-align: center;
   transition: .9s;
 }
 
+#portBtns {
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+  margin-top: -2;
+  font-size: .75rem;
+  color: whitesmoke;
+}
+
 .banner {
-  padding-bottom: -1px;
-  padding-top: 5px;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  padding-bottom: 0;
   text-align: center;
   text-decoration-line: none;
   color: #343434;
   font-family: 'Squada One', cursive;       
 } 
-
-
 
   /* Block of code below controls the blinking red cursor on home page */
 
@@ -319,38 +326,6 @@ text-align: center;
     border-color: rgba(255,255,255,.8); ;
   }
   
-  /* Begin Media Queries*/
-  @media screen and (max-width: 760px) {
-      #contact {
-          height: 1000px;
-      }
-   
-    .direct-contact-container {
-     
-      margin: 10px auto;
-    }  
-    .direct-contact-container {
-      margin-top: 60px;
-      max-width: 300px;
-    }    
-   
-  }
-  
-  @media screen and (max-width: 569px) {
-    #contact {
-      height: 1200px;
-      }   
-    .direct-contact-container {
-     
-      margin: 0 auto;
-    }  
-        
-    .direct-contact-container {
-      margin-top: 60px;
-      max-width: 280px;
-    }  
-      
-  }  
 
 /* font families inventory
 
