@@ -146,6 +146,9 @@ div.container {
 .conSection {
   background-color: #A0E6FF;
 }  
+.toolsSection {
+  background-color: #FFF;
+}  
     
 .aMsection, .conSection, .portSection {
     opacity: .95;  
@@ -171,19 +174,28 @@ text-align: center;
 /* Portfolio image properties below */
 
 .polaroid {   
-  max-width: 100%;
+  width: auto; 
   max-height: 100%;  
-  color: #ffffff;
+  color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 10px 10px;
   cursor: pointer;
   border: solid .5px black;  
-  align-content: center;
-  display: inline-block;
-  grid-template-rows: auto;
-  grid-gap: .5rem;
-  opacity: .6;
+  opacity: .75;
+  padding-top: 8px;
+  border-radius: 3px;
+  
    
+}
+
+img.me {
+
+  border-radius: 3px;
+}
+
+.tools {
+margin-bottom: 5px;
+
 }
 
 .polaroid:hover {
@@ -208,6 +220,11 @@ text-align: center;
   color: #343434;
   font-family: 'Squada One', cursive;       
 } 
+
+.subText {
+  font-size: 0.6rem;
+  padding: 0 5px;
+}
 
   /* Block of code below controls the blinking red cursor on home page */
 
