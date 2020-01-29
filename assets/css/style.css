@@ -342,6 +342,11 @@ margin-bottom: 5px;
   hr {
     border-color: rgba(255,255,255,.8); ;
   }
+
+  li {
+
+    margin: 5px;
+  }
   
 
 /* font families inventory
