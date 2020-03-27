@@ -347,7 +347,34 @@ margin-bottom: 5px;
 
     margin: 5px;
   }
+
+  #viewCodeBtn {  
+    text-decoration: none;
+    background-color: #d9534f;
+    color: whitesmoke;    
+    padding: 2px 6px 2px 6px;
+    margin-top: -2;
+    margin-bottom: 3.5px;
+    font-size: .75rem;   
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
   
+  #liveBtn { 
+    text-decoration: none;
+    background-color: #0275d8;
+    color: whitesmoke;    
+    padding: 2px 6px 2px 6px;
+    margin-top: -2;
+    margin-bottom: 3.5px;
+    font-size: .75rem;   
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
 
 /* font families inventory
 
