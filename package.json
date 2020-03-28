@@ -1,0 +1,22 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Here it is...My new and improved portfolio.  I included four of my most favorite projects, including my side project that's still under development, the Muscle Memory app.  This is not a template \"borrowed\" from the internet.  I built this site from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanCodeAtATime/myPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanCodeAtATime/myPortfolio/issues"
+  },
+  "homepage": "https://juancodeatatime.github.io/myPortfolio/",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
