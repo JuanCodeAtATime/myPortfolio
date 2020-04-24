@@ -1,14 +1,11 @@
-body {
+html, body {
     margin: 0;
     background-image: url("../images/coding.jpg");
     background-size: cover; 
     background-attachment: fixed;
-    overflow-x: hidden; 
+    overflow-x: hidden;    
 }
-div.disabled {
-  overflow-x: hidden; 
-  overflow-y: scroll; 
-}
+
 
 .navbar {
   background: rgba(0, 0, 0, .83);
