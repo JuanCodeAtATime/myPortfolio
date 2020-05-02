@@ -7,3 +7,7 @@ It's no secret.  Portfolio design skills are sometimes overlooked because of the
 
 ## Deployed Site
 [Click here to visit site.](https://juancodeatatime.github.io/myPortfolio/)
+<<<<<<< HEAD
+=======
+
+>>>>>>> a6e0a389dee940cc7e63e0a069e9b510774bd67d
