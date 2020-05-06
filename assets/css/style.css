@@ -11,12 +11,6 @@ html, body {
   background: rgba(0, 0, 0, .83);
 }
 
-
-a.navbar-brand {
-  font-size: .95rem;
-}
-
-
 .sticky-top{
   top:50px;  
 }
@@ -29,10 +23,10 @@ div.overlay {
     width: 100%;
            
 }
-.header {    
+.header {
+    font-family: 'Squada One';
     color: whitesmoke;
-    font-size: 3rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.5rem;
 }
 
 .contactInfo {
@@ -242,7 +236,7 @@ margin-bottom: 5px;
 
 .blinking-cursor {
     font-weight: 100;
-    font-size: 2.5rem;
+    font-size: 60px;
     color: red;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
