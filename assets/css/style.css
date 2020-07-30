@@ -161,7 +161,7 @@ div.container {
   border-radius: 50%;
   display: inline-block;
   position: center;
-  width: 325px;
+  width: 375px;
   height: 200px;
   align-content: center;
   text-align: center;
@@ -176,22 +176,22 @@ div.container {
 
 .polaroid {
   width: auto;
-  height: 255px;
+  height: 325px;
   color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 10px 10px;
   cursor: pointer;
   border: solid 0.5px black;
   opacity: 0.75;
-  padding-top: 8px;
-
+  padding-top: 15px;
   border-radius: 3px;
   padding-bottom: 8px;
-  position: relative;
 }
 
-img.me {
+.me {
   border-radius: 3px;
+  width: 375px;
+  height: 200px;
 }
 
 .tools {
