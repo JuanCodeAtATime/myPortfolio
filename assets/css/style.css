@@ -1,179 +1,171 @@
-html, body {
-    margin: 0;
-    background-image: url("../images/coding.jpg");
-    background-size: cover; 
-    background-attachment: fixed;
-    overflow-x: hidden;    
+html,
+body {
+  margin: 0;
+  background-image: url("../images/coding.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
-
 
 .navbar {
-  background: rgba(0, 0, 0, .83);
+  background: rgba(0, 0, 0, 0.83);
 }
 
-.sticky-top{
-  top:50px;  
+.sticky-top {
+  top: 50px;
 }
 /* Overlay class to give original image a darker tint, hence, making content stand out */
 
 div.overlay {
-    margin: 0;
-    background: rgba(0, 0, 0, .83);
-    height: 610px;
-    width: 100%;
-           
+  margin: 0;
+  background: rgba(0, 0, 0, 0.83);
+  height: 610px;
+  width: 100%;
 }
 .header {
-    font-family: 'Squada One';
-    color: whitesmoke;
-    font-size: 3.5rem;
+  font-family: "Squada One";
+  color: whitesmoke;
+  font-size: 3.5rem;
 }
 
 .contactInfo {
-  margin: auto 2.5px;  
+  margin: auto 2.5px;
 }
 
 .homeBtns {
   padding: 0;
   padding-bottom: 0;
   margin-bottom: 0;
-  
 }
-
 
 .character {
-    font-family: 'Squada One', cursive;
-    padding-top: 4px;
+  font-family: "Squada One", cursive;
+  padding-top: 4px;
 }
 
-
-.btn, .secTitles {
-    margin: 5px;
-    font-family: 'Squada One', cursive; 
+.btn,
+.secTitles {
+  margin: 5px;
+  font-family: "Squada One", cursive;
 }
 
 h2.secTitles {
-
-  font-family: 'Squada One', cursive; 
+  font-family: "Squada One", cursive;
 }
 /* Centering the content to the center or the viewport */
 
 div.container {
-    margin: 0;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Social Media Icons */
 .social {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .social ul {
-    margin: 0;
-    padding: 5px;
+  margin: 0;
+  padding: 5px;
 }
 
 .social ul li {
-    margin: 5px;
-    list-style: none outside none;
-    display: inline-block;
+  margin: 5px;
+  list-style: none outside none;
+  display: inline-block;
 }
 
 .social i {
-    width: 40px;
-    height: 40px;
-    color: #FFF;
-    background-color: rgb(29, 33, 36);
-    font-size: 22px;
-    text-align:center;
-    padding-top: 12px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -o-border-radius: 50%;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: rgb(29, 33, 36);
+  font-size: 22px;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
 }
 
 .social i:hover {
-    color: #FFF;
-    text-decoration: none;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
+  color: #fff;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
 }
 
 .social .fa-github:hover {
-    background: #343434;
+  background: #343434;
 }
-
 
 .social .fa-linkedin:hover {
-    background: #0094BC;
+  background: #0094bc;
 }
-
 
 .social .fa-instagram:hover {
-    background: #375989;
+  background: #375989;
 }
-
 
 .social .fa-stack-overflow:hover {
-    background: #FEA501;
+  background: #fea501;
 }
 
-
 .social .fa-youtube:hover {
-    background: #FF1F25;
+  background: #ff1f25;
 }
 
 .right {
   float: right;
 }
 
-.aMsection  {
-  background-color: #FBE7B2;
+.aMsection {
+  background-color: #fbe7b2;
 }
 .portSection {
-  background-color:#C8C8CD;
+  background-color: #c8c8cd;
 }
 .conSection {
-  background-color: #A0E6FF;
-}  
+  background-color: #a0e6ff;
+}
 .toolsSection {
-  background-color: #FFF;
-}  
-    
-.aMsection, .conSection, .portSection {
-    opacity: .95;  
-    width: auto;
-    border-radius: 4px;
+  background-color: #fff;
+}
+
+.aMsection,
+.conSection,
+.portSection {
+  opacity: 0.95;
+  width: auto;
+  border-radius: 4px;
 }
 
 #me {
-margin: 10px;
+  margin: 10px;
 
-border-radius: 50%;
-display: inline-block;
-position: center;
-width: 250;
-height: 150;
-align-content: center;
-text-align: center;
-} 
-
+  border-radius: 50%;
+  display: inline-block;
+  position: center;
+  width: 325px;
+  height: 200px;
+  align-content: center;
+  text-align: center;
+}
 
 .aboutMeTxt {
   padding: auto 2px;
@@ -182,41 +174,40 @@ text-align: center;
 
 /* Portfolio image properties below */
 
-.polaroid {   
-  width: auto; 
-  max-height: 100%;  
+.polaroid {
+  width: auto;
+  height: 255px;
   color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 10px 10px;
   cursor: pointer;
-  border: solid .5px black;  
-  opacity: .75;
+  border: solid 0.5px black;
+  opacity: 0.75;
   padding-top: 8px;
+
   border-radius: 3px;
-  padding-bottom: 8px; 
-   
+  padding-bottom: 8px;
+  position: relative;
 }
 
 img.me {
-
   border-radius: 3px;
 }
 
 .tools {
-margin-bottom: 5px;
-
+  margin-bottom: 5px;
 }
 
 .polaroid:hover {
   opacity: 1;
-  transition: .9s;
+  transition: 0.9s;
 }
 
 #portBtns {
   margin-bottom: 4px;
   padding-bottom: 4px;
   margin-top: -2;
-  font-size: .75rem;
+  font-size: 0.75rem;
   color: whitesmoke;
 }
 
@@ -227,163 +218,164 @@ margin-bottom: 5px;
   text-align: center;
   text-decoration-line: none;
   color: #343434;
-  font-family: 'Squada One', cursive;       
-} 
+  font-family: "Squada One", cursive;
+}
 
 .subText {
   font-size: 0.6rem;
-  padding: 0 5px;
+  padding: 0 20px;
 }
 
-  /* Block of code below controls the blinking red cursor on home page */
+/* Block of code below controls the blinking red cursor on home page */
 
 .blinking-cursor {
-    font-weight: 100;
-    font-size: 60px;
+  font-weight: 100;
+  font-size: 60px;
+  color: red;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
     color: red;
-    -webkit-animation: 1s blink step-end infinite;
-    -moz-animation: 1s blink step-end infinite;
-    -ms-animation: 1s blink step-end infinite;
-    -o-animation: 1s blink step-end infinite;
-    animation: 1s blink step-end infinite;
   }
-  
-  @keyframes "blink" {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: red;
-    }
-  }
-  
-  @-moz-keyframes blink {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: red;
-    }
-  }
-  
-  @-webkit-keyframes "blink" {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: red;
-    }
-  }
-  
-  @-ms-keyframes "blink" {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: red;
-    }
-  }
-  
-  @-o-keyframes "blink" {
-    from, to {
-      color: transparent;
-    }
-    50% {
-      color: red;
-    }
-  }
+}
 
-  /* All code above this line controls the blinking red cursor on home page */
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-o-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+/* All code above this line controls the blinking red cursor on home page */
 #back2Top {
-
   display: inline-block;
   text-align: center;
   align-content: center;
 }
-  
-  #contact {
-    width: 100%;   
-    overflow: hidden;
-    padding-bottom: 15px;
-  }
-    
-      
-  /* Begin Direct Contact Page */
-  .direct-contact-container {
-    max-width: 400px;
-    margin-top: 5px;
-  }
-  
-  /* Location, Phone, Email Section */
-  .contact-list {
-    list-style-type: none;
-   
-  }
-  
-  .list-item {
-    line-height: 4;
-    color: black;
-  }
-  
-  .contact-text {
-    font: 300 18px 'Lato', sans-serif;
-    letter-spacing: 1.9px;
-    color: black;
-  }
-  
-  .place, .phone, .email {
-    margin-left: 15px;
-  }
-    
-  
-  .contact-text a {
-    color: black;
-    text-decoration: none;
-    transition-duration: 0.2s;
-  }
-  
-  .contact-text a:hover {
-    color: #fff;
-    text-decoration: none;
-  } 
-   
-    
-  hr {
-    border-color: rgba(255,255,255,.8); ;
-  }
 
-  li {
+#contact {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
 
-    margin: 5px;
-  }
+/* Begin Direct Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+  margin-top: 5px;
+}
 
-  #viewCodeBtn {  
-    text-decoration: none;
-    background-color: #d9534f;
-    color: whitesmoke;    
-    padding: 2px 6px 2px 6px;
-    margin-top: -2;
-    margin-bottom: 3.5px;
-    font-size: .75rem;   
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
-  }
-  
-  #liveBtn { 
-    text-decoration: none;
-    background-color: #0275d8;
-    color: whitesmoke;    
-    padding: 2px 6px 2px 6px;
-    margin-top: -2;
-    margin-bottom: 3.5px;
-    font-size: .75rem;   
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
-  }
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+}
+
+.list-item {
+  line-height: 4;
+  color: black;
+}
+
+.contact-text {
+  font: 300 18px "Lato", sans-serif;
+  letter-spacing: 1.9px;
+  color: black;
+}
+
+.place,
+.phone,
+.email {
+  margin-left: 15px;
+}
+
+.contact-text a {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+li {
+  margin: 5px;
+}
+
+#viewCodeBtn {
+  text-decoration: none;
+  background-color: #d9534f;
+  color: whitesmoke;
+  padding: 2px 6px 2px 6px;
+  margin-top: -2;
+  margin-bottom: 3.5px;
+  font-size: 0.75rem;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #cccccc;
+}
+
+#liveBtn {
+  text-decoration: none;
+  background-color: #0275d8;
+  color: whitesmoke;
+  padding: 2px 6px 2px 6px;
+  margin-top: -2;
+  margin-bottom: 3.5px;
+  font-size: 0.75rem;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #cccccc;
+}
 
 /* font families inventory
 
