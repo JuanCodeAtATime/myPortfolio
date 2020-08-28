@@ -9,8 +9,19 @@ body {
   background-position: 50% 50%;
 }
 
-.navbar {
+.navbar,
+.jclogo {
   background: rgba(0, 0, 0, 0.83);
+  /* position: fixed !important; */
+  text-align: center;
+  justify-items: center !important;
+  justify-content: center;
+  margin: 0;
+}
+
+.jclogo {
+  position: fixed !important;
+  justify-content: center !important;
 }
 
 .sticky-top {
@@ -147,7 +158,7 @@ div.container {
   background-color: #c8c8cd;
 }
 .conSection {
-  background-color: #a0e6ff;
+  background-color: #fbe7b2;
 }
 .toolsSection {
   background-color: #fff;
@@ -337,13 +348,13 @@ div.container {
 }
 
 .contact-text a {
-  color: black;
+  color: #383838;
   text-decoration: none;
   transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
-  color: #fff;
+  color: red;
   text-decoration: none;
 }
 
